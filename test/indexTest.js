@@ -7,6 +7,7 @@ describe("The payroll system", function () {
     it("has a function called createEmployeeRecord", function () {
       expect(createEmployeeRecord).to.exist
     })
+    
 
     describe("createEmployeeRecord", function () {
       it("populates a firstName field from the 0th element", function () {
